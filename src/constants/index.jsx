@@ -13,142 +13,137 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
+  { label: "Features", href: "/FeatureSection" },
+  { label: "Benefits", href: "#" },
   { label: "Pricing", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Aarav S",
+    
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "This app has been a game-changer for me. I can now understand my surroundings better and feel more confident when I'm out and about. It is amazing.",
   },
   {
-    user: "Jane Smith",
+    user: "Ananya G",
     company: "Blue Horizon Technologies",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "As someone who has been visually impaired for years, this app is a breath of fresh air. It has made my daily commute and interactions so much easier and stress-free. ",
   },
   {
-    user: "David Johnson",
+    user: "Davish T",
     company: "Quantum Innovations",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "I was skeptical at first, but this app truly exceeded my expectations. The detailed audio descriptions are precise and really help me visualize my environment.",
   },
   {
-    user: "Ronee Brown",
+    user: "Rohan K",
     company: "Fusion Dynamics",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "This app has transformed the way I experience the world. The accuracy of the video summaries make me feel much more independent and secure when navigating new places.",
   },
   {
-    user: "Michael Wilson",
+    user: "Md. Ismail",
     company: "Visionary Creations",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "I can't thank the developers enough for this incredible app. It has given me a sense of freedom and confidence that I never thought possible. The technology is remarkable and easy to use.",
   },
   {
-    user: "Emily Davis",
+    user: "Srushti P",
     company: "Synergy Systems",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "This app has been a lifesaver for me. The video analysis and audio summaries are so accurate that I can easily understand my surroundings without any assistance",
   },
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Immersive Experience",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Delivers audio descriptions of surroundings to enhance user connection.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Facial Recognition",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Stores and identifies facial information of close acquaintances.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Storage",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Allows the users to store their experiences.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Voice Commands",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Provides the user voice activated interface",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "24/7 Availability",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Provides the user a 24/7 experience without any delay or breaks.",
   },
-  {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
-    description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
-  },
+ 
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Affordable and accessible",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "It is designed to be budget-friendly and easy to use, ensuring that more people can benefit from its features.",
   },
   {
-    title: "Review code without worry",
+    title: "Provides more detailed information.",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Delivers comprehensive and precise audio descriptions, offering users a thorough understanding of their surroundings.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Helps users be more independent and safe.",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "By providing clear and reliable information about their environment, the app empowers users to live confidently on their own.",
   },
   {
-    title: "Share work in minutes",
+    title: "Can be gifted",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "This app makes for a thoughtful and practical gift, offering valuable assistance to visually impaired friends and family members.",
   },
 ];
 
 export const pricingOptions = [
   {
     title: "Free",
-    price: "$0",
+    price: "₹0",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Feature 1",
+      "Feature 2",
+      "Feature 3",
+      "Feature 4",
     ],
   },
   {
     title: "Pro",
-    price: "$10",
+    price: "₹300",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+     "Feature 1",
+      "Feature 2",
+      "Feature 3",
+      "Feature 4",
     ],
   },
   {
     title: "Enterprise",
-    price: "$200",
+    price: "₹500",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Feature 1",
+      "Feature 2",
+      "Feature 3",
+      "Feature 4",
     ],
   },
 ];
