@@ -1,3 +1,4 @@
+
 import { BotMessageSquare } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
@@ -13,10 +14,13 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "/FeatureSection" },
-  { label: "Benefits", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  
+  { label: "Features", href: "#FeatureSection" },
+  { label: "Benefits", href: "#Workflow" },
+  { label: "Pricing", href: "#Pricing" },
+  { label: "Testimonials", href: "#Testimonials" },
+  { label: "Contact", href: "#Contact" },
+
 ];
 
 export const testimonials = [

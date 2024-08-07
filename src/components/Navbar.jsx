@@ -2,6 +2,9 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import HeroSection from "./HeroSection";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -19,13 +22,20 @@ const Navbar = () => {
             <span className="text-xl tracking-tight"></span>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
+         
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href}>{item.label}</a>
+                         
+     
+        <a href={item.href}>{item.label}</a>
+       
               </li>
             ))}
+          
+           
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
+           
             <a href="#" className="py-2 px-3 border rounded-md">
               Tutorial
             </a>
@@ -43,7 +53,7 @@ const Navbar = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div className="text-grey-700 fixed right-0 z-20 bg-neutral-100 w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
